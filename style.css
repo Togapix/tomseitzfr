@@ -8,6 +8,7 @@ h1, h2, h3 {
 
 html,body {
     margin: 0;
+    width: 100%;
 }
 
 header {
@@ -38,9 +39,17 @@ nav ul {
 }
 
 nav ul li {
-    display: grid;
-    align-items: center;
-    padding: 0.5em;
+    padding: 0px;
+}
+
+nav ul li a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
 }
 
 .item-navbar {
